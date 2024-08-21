@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-up, .left-center{
+    background-color: #212121;
+}
+
+.links{
+    font-size: .9rem;
+}
