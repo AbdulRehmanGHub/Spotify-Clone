@@ -1,13 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.left-up, .left-center{
-    background-color: #212121;
+.left-up,
+.left-center {
+    background-color: #121212;
 }
 
-.links{
-    font-size: .9rem;
+.left-boxes {
+    height: 10rem;
+    overflow: hidden;
+    /* margin-bottom: 10rem; */
+    transition: ease-in .4s;
+}
+
+.left-boxes:hover {
+    overflow: auto;
+    transition: ease-out .4s;
+}
+
+.left-center-box1,
+.left-center-box2 {
+    background-color: #1f1f1f;
+}
+
+.links {
+    font-size: .8rem;
+}
+
+.globe-btn-text {
+    font-size: .7rem;
+}
+
+.main {
+    background-color: #1d1d1d;
+}
+
+.nav {
+    background-color: #101010;
+}
+
+.main-center {
+    background: rgb(29, 29, 29);
+    background: linear-gradient(180deg, rgba(29, 29, 29, 1) 8%, rgba(18, 18, 18, 1) 17%);
+}
+
+.main-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-links a:hover{
+    text-decoration: underline;
+}
+
+.main-links-heading{
+    text-decoration: none;
+    cursor: default;
+    font-weight: bold;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #fff;
+}
+
+.social-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(128, 128, 128, 0.3);
+    border-radius: 50%;
+}
+
+.social-icon:hover{
+    background-color: rgb(128, 128, 128, 0.8);
+}
+
+.footer {
+    background: rgb(172, 43, 153);
+    background: linear-gradient(90deg, rgba(172, 43, 153, 1) 35%, rgba(81, 154, 244, 1) 100%);
+}
+
+.btn-hover:hover {
+    transform: scale(1.1);
+}
+
+.box:hover {
+    background-color: rgb(128, 128, 128, 0.1);
 }

@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-dark d-flex justify-content-center py-2">
+    <div class="container-fluid bg-black d-flex justify-content-center py-2">
         <div class="row col-12">
-            <div class="container-xxl p-0 pe-2 col-3 bg-secondary d-flex flex-column gap-2">
+            <div class="container-xxl p-0 pe-2 col-3 d-flex flex-column gap-2">
                 <div class="container-xxl left-up py-3 px-4 d-flex flex-column gap-2 rounded">
 
                     <div class="logo d-flex gap-1 text-white">
@@ -49,24 +49,26 @@
                     </div>
 
                     <div class="left-boxes d-flex flex-column gap-4">
-                        <div class="left-center-box1 bg-info rounded p-3">
+                        <div class="left-center-box1 rounded p-3">
                             <p class="text-white fw-bold fs-5">Create your first playlist</p>
                             <p class="text-white fs-6">It's easy, we'll help you</p>
 
-                            <button class="border border-light bg-light text-dark rounded-pill px-4 py-2 fw-bold">Create
+                            <button
+                                class="btn-hover btn btn-light border border-light text-dark rounded-pill px-4 py-2 fw-bold">Create
                                 playlist</button>
                         </div>
 
-                        <div class="left-center-box2 bg-info rounded p-3">
+                        <div class="left-center-box2 rounded p-3">
                             <p class="text-white fw-bold fs-5">Let's find some podcasts to follow</p>
                             <p class="text-white fs-6">We'll keep you updated on new episodes</p>
 
-                            <button class="border border-light bg-light text-dark rounded-pill px-4 py-2 fw-bold">Browse
+                            <button
+                                class="btn-hover btn btn-light border border-light text-dark rounded-pill px-4 py-2 fw-bold">Browse
                                 podcasts</button>
                         </div>
                     </div>
 
-                    <div class="links d-flex flex-wrap gap-3 py-4">
+                    <div class="links d-flex flex-wrap gap-2 px-3 pt-4">
                         <p><a class="text-secondary link-underline-dark" href="">Legal</a></p>
                         <p><a class="text-secondary link-underline-dark" href="">Saftey & Privacy Ceter</a></p>
                         <p><a class="text-secondary link-underline-dark" href="">Privacy Policy</a></p>
@@ -76,31 +78,539 @@
                         <p><a class="text-secondary" href="">Cookies</a></p>
                     </div>
 
-                    <button class="d-flex gap-1 rounded-pill w-3 px-1 btn btn-sm">
-
-                    </button>
-
-                    <div class="d-grid gap-2 d-flex">
-                        <button class="btn btn-primary d-flex rounded-pill" type="button">
-                            <i class="fa-solid fa-globe"></i>
-                            <p>English</p>
+                    <div class="d-flex px-3">
+                        <button
+                            class="btn-hover border border-light bg-dark text-light px-2 py-1 rounded-pill d-flex align-items-center gap-1">
+                            <i class="fs-0 fa-solid fa-globe"></i> <span class="globe-btn-text fw-bold">English</span>
                         </button>
                     </div>
-
                 </div>
-
-
-
             </div>
 
+            <div class="main container-xl col-9 p-0 rounded d-flex flex-column">
+                <div class="nav position-sticky sticky-top d-flex justify-content-between px-3 py-2 rounded-top">
+                    <div class="nav-left d-flex gap-2">
+                        <button class="btn btn-dark rounded-circle"><i
+                                class="fs-5 p fa-solid fa-angle-left"></i></button>
+                        <button class="btn btn-dark rounded-circle"><i
+                                class="fs-5 fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="nav-right d-flex gap-2">
+                        <button type="button" class="btn-hover btn fs-6 fw-bold text-white">Sign up</button>
+                        <button type="button" class="btn-hover btn btn-light fs-6 fw-bold rounded-pill px-4 py-2">Log
+                            in</button>
+                    </div>
+                </div>
 
+                <div class="main-center d-flex flex-column gap-4">
 
+                    <!-- popular artists -->
+                    <div class="popular-artists">
+                        <div class="d-flex justify-content-between px-3 py-4 pb-1">
+                            <div>
+                                <p class="fs-5 fw-bold"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-white"
+                                        href="#">Popular
+                                        artists</a></p>
+                            </div>
+                            <div>
+                                <p class="fs-6"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-light"
+                                        href="#">Show all</a></p>
+                            </div>
+                        </div>
 
-            <div class="container-xl col-9 bg-danger">2</div>
-            <div class="container-xl col-12 bg-info">3</div>
+                        <div
+                            class="artist-details px-4 d-flex flex-wrap gap-2 justify-content-around align-items-center">
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/new singer.jpg" class="rounded-circle m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/new singer.jpg" class="rounded-circle m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/new singer.jpg" class="rounded-circle m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/new singer.jpg" class="rounded-circle m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- popular albums -->
+                    <div class="popular-albums">
+                        <div class="d-flex justify-content-between px-3 py-4 pb-1">
+                            <div>
+                                <p class="fs-5 fw-bold"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-white"
+                                        href="#">Popular
+                                        albums</a></p>
+                            </div>
+                            <div>
+                                <p class="fs-6"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-light"
+                                        href="#">Show all</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="artist-details px-4 d-flex flex-wrap gap-2 justify-content-around align-items-center">
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded pe-auto" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+                                    <div class="text-center rounded-circle pe-auto">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body pe-auto">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- popular radio -->
+                    <div class="popular-radio">
+                        <div class="d-flex justify-content-between px-3 py-4 pb-1">
+                            <div>
+                                <p class="fs-5 fw-bold"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-white"
+                                        href="#">Popular
+                                        radio</a></p>
+                            </div>
+                            <div>
+                                <p class="fs-6"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-light"
+                                        href="#">Show all</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="artist-details px-4 d-flex flex-wrap gap-2 justify-content-around align-items-center">
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/guitar girl.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/guitar girl.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/guitar girl.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/guitar girl.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Featured Charts -->
+                    <div class="featured-charts">
+                        <div class="d-flex justify-content-between px-3 py-4 pb-1">
+                            <div>
+                                <p class="fs-5 fw-bold"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-white"
+                                        href="#">Featured
+                                        Charts</a></p>
+                            </div>
+                            <div>
+                                <p class="fs-6"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-light"
+                                        href="#">Show all</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="artist-details px-4 d-flex flex-wrap gap-2 justify-content-around align-items-center">
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/top singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/top singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/top singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/top singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Spotify Playlists -->
+                    <div class="spotify-playlists">
+                        <div class="d-flex justify-content-between px-3 py-4 pb-1">
+                            <div>
+                                <p class="fs-5 fw-bold"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-white"
+                                        href="#">Spotify
+                                        Playlists</a></p>
+                            </div>
+                            <div>
+                                <p class="fs-6"><a
+                                        class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover text-light"
+                                        href="#">Show all</a></p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="artist-details px-4 d-flex flex-wrap gap-2 justify-content-around align-items-center">
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card bg-transparent rounded" style="width: 20%;">
+                                <a href="#" class="box text-decoration-none">
+
+                                    <div class="text-center rounded-circle">
+                                        <img src="./img/pop singer.jpg" class="rounded m-2"
+                                            style="width: 90%; height: auto;">
+                                    </div>
+
+                                    <div class="pt-1 card-body">
+                                        <h5 class="card-title mb-1 text-white">Name</h5>
+                                        <p class="card-text text-white">Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <div class="main-links py-5 px-0 d-flex justify-content-evenly gap-3 flex-wrap">
+                            <div>
+                                <a class="main-links-heading text-decoration-none" href="#">
+                                    <p>Company</p>
+                                </a>
+                                <a href="#">
+                                    <p>About</p>
+                                </a>
+                                <a href="#">
+                                    <p>Jobs</p>
+                                </a>
+                                <a href="#">
+                                    <p>For the Record</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="main-links-heading text-decoration-none" href="#">
+                                    <p>Communities</p>
+                                </a>
+                                <a href="#">
+                                    <p>For Artists</p>
+                                </a>
+                                <a href="#">
+                                    <p>Developers</p>
+                                </a>
+                                <a href="#">
+                                    <p>Advertising</p>
+                                </a>
+                                <a href="#">
+                                    <p>Investors</p>
+                                </a>
+                                <a href="#">
+                                    <p>Vendors</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="main-links-heading text-decoration-none" href="#">
+                                    <p>Useful links</p>
+                                </a>
+                                <a href="#">
+                                    <p>Support</p>
+                                </a>
+                                <a href="#">
+                                    <p>Free Mobile App</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="main-links-heading text-decoration-none" href="#">
+                                    <p>Spotify Plans</p>
+                                </a>
+                                <a href="#">
+                                    <p>Premium Individual</p>
+                                </a>
+                                <a href="#">
+                                    <p>Premium Duo</p>
+                                </a>
+                                <a href="#">
+                                    <p>Premium Family</p>
+                                </a>
+                                <a href="#">
+                                    <p>Premium Student</p>
+                                </a>
+                                <a href="#">
+                                    <p>Spotify Free</p>
+                                </a>
+                            </div>
+                            <div class="social-icons">
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-4">
+                            <hr class="text-white">
+                            <p class="text-white pt-3 pb-5">© 2024 Spotify AB </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer container-xl d-flex justify-content-between px-3 py-2 col-12">
+                <a href="#" class="d-flex justify-content-between col-12 text-decoration-none">
+                    <div class="" style="font-size: .9rem;">
+                        <p class="mb-0 fw-bold text-white">Preview of Spotify</p>
+                        <p class="mb-0 text-white">Sign up to get unlimited songs and podcasts with occasional
+                            ads.
+                            No credit card needed.</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn-hover btn btn-light fs-6 fw-bold rounded-pill px-4 py-2">Sign
+                            up
+                            free</button>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
