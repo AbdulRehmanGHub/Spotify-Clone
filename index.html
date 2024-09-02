@@ -15,9 +15,57 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-black d-flex justify-content-center py-2">
+    <div class="full-page container-fluid bg-black d-flex justify-content-center py-2">
         <div class="row col-12">
-            <div class="container-xxl p-0 pe-2 col-3 d-flex flex-column gap-2">
+            <!-- navbar -->
+            <nav class="navigation-bar navbar navbar-expand-lg bg-body-dark text-white">
+                <div class="container-fluid">
+                    <a>
+                        <div class="logo text-white">
+                            <i class="fs-2 fa-brands fa-spotify"></i>
+                        </div>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-4" href="#">Signup</a>
+                            </li>
+                            <p>....</p>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Premium</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Help</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Download</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Privacy</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="#">Terms</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="left-side container-xxl col-md-0 col-3 p-0 pe-2 d-flex flex-column gap-2">
                 <div class="container-xxl left-up py-3 px-4 d-flex flex-column gap-2 rounded">
 
                     <div class="logo d-flex gap-1 text-white">
@@ -87,8 +135,9 @@
                 </div>
             </div>
 
-            <div class="main container-xl col-9 p-0 rounded d-flex flex-column">
-                <div class="nav position-sticky sticky-top d-flex justify-content-between px-3 py-2 rounded-top">
+            <!-- main container -->
+            <div class="main container-xl col-9 p-0 rounded d-flex flex-column pb-3">
+                <div class="main-nav position-sticky sticky-top d-flex justify-content-between px-3 py-2 rounded-top">
                     <div class="nav-left d-flex gap-2">
                         <button class="btn btn-dark rounded-circle"><i
                                 class="fs-5 p fa-solid fa-angle-left"></i></button>
@@ -594,7 +643,8 @@
                 </div>
             </div>
 
-            <div class="footer container-xl d-flex justify-content-between px-3 py-2 col-12">
+            <!-- footer -->
+            <div class="footer container-xl d-flex justify-content-between fixed-bottom px-3 py-2 col-12">
                 <a href="#" class="d-flex justify-content-between col-12 text-decoration-none">
                     <div class="" style="font-size: .9rem;">
                         <p class="mb-0 fw-bold text-white">Preview of Spotify</p>
