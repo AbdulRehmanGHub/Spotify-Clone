@@ -37,6 +37,15 @@
     font-size: .7rem;
 }
 
+.libraryDiv:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.plus-icon:hover {
+    cursor: pointer;
+}
+
 .main {
     background-color: #1d1d1d;
 }
@@ -111,7 +120,7 @@
         display: block !important;
         position: sticky !important;
         top: 0% !important;
-        background-color:#101010 !important;
+        background-color: #101010 !important;
         z-index: 9 !important;
     }
 
@@ -179,4 +188,6 @@
     .bottom-text.px-4 {
         padding: 1rem !important;
     }
-};
+}
+
+;
